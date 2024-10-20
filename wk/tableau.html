@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>les tableaux en html</title>
+  </head>
+  <body>
+    <h1>les tableaux en html</h1>
+    <h2>les bases des tableaux</h2>
+
+    <table
+      border="1"
+      width="200"
+      align="center"
+    >
+      <caption align="bottom">
+        Les tarifs de nos produits
+      </caption>
+      <thead>
+        <tr>
+          <th width="100">produit</th>
+          <th width="100">prix</th>
+        </tr>
+      </thead>
+      <tbody>
+
+     
+      <tr>
+        <td>FNAC</td>
+        <td>hp</td>
+        <td>5000</td>
+      </tr>
+      <tr>
+        <td>FNAC</td>
+
+        <td>dell</td>
+        <td>6000</td>
+      </tr>
+      <tr>
+        <td>MARJANE</td>
+
+        <td>sony</td>
+        <td>6500</td>
+      </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">les tarifs sont en $</td>
+            
+        </tr>
+    </tfoot>
+    </table>
+    <h2>les fusions des cellules des tableaux</h2>
+    <table
+      border="1"
+      width="200"
+      height="200"
+    >
+      <tr>
+        <td colspan="2">A</td>
+
+        <td>C</td>
+        <td>D</td>
+        <td rowspan="3">X</td>
+      </tr>
+      <tr>
+        <td colspan="3">E</td>
+
+        <td rowspan="2">H</td>
+      </tr>
+      <tr>
+        <td>I</td>
+        <td>J</td>
+        <td>K</td>
+      </tr>
+    </table>
+  </body>
+</html>

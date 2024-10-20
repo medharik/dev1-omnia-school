@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    les tableaux en html - partie 2
+  </head>
+  <body>
+    <h1>les tableaux en html - partie 2</h1>
+    <h2>la fusion des cellules</h2>
+    <table width="400" height="400" align="center" border="1">
+        <tr>
+            <td colspan="2">A</td>
+           
+            <td>C</td>
+            <td rowspan="3">D</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center" valign="" >E</td>
+                  
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+        </tr>
+    </table>
+    <!-- table>tr*3>td*4 -->
+    <table
+      border="1"
+      width="300"
+      height="300"
+      align="center"
+    >
+      <tr>
+        <td>A</td>
+        <td colspan="2">C</td>
+        <td rowspan="3">D</td>
+      </tr>
+      <tr>
+        <td>E</td>
+        <td>F</td>
+        <td>G</td>
+      </tr>
+      <tr>
+        <td>I</td>
+        <td>J</td>
+        <td>K</td>
+      </tr>
+    </table>
+
+    <h2>les balises semantiques des tableaux</h2>
+   <table border="1" align="center" width="300">
+    <caption align="bottom">LES TARIFS DE NOS PRODUITS</caption>
+<thead>
+
+
+    <tr>
+        <td></td>
+        <td scope="col">Produit</td>
+        <td>prix</td>
+    </tr>
+
+</thead>
+<tbody>
+
+
+    <tr>
+        <td scope="rowgroup" rowspan="2">MARJANE</td>
+        <td>hp</td>
+        <td>4000</td>
+    </tr> <tr>
+        <td>hp compaq</td>
+        <td>6700</td>
+    </tr>
+    <tr>
+        <td>CAREFOUR</td>
+        <td>dell</td>
+        <td>7000</td>
+    </tr>
+   
+</tbody>
+
+<tfoot>
+    <tr>
+        <td colspan="3" align="center" >les tarifs sont en $  DHS   </td>
+     
+    </tr>
+</tfoot>
+   </table>
+  </body>
+</html>
