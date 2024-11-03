@@ -1,0 +1,12 @@
+p{
+    border: 4px solid green;
+    background: green;
+    padding: 10px;
+    font-size: 20px;
+    width: 600px !important ;
+ }
+p{
+
+    width: 100%;
+    text-align: justify;
+ }
