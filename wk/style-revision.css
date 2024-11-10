@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+list-style: none;
+
+}
+
+li{
+    border: 0px   green solid;
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(140, 239, 140);
+    float: left;
+    box-shadow: 1px 1px 3px 1px #49554c;
+
+}
+
+a{
+    color: rgb(5, 85, 5);
+text-decoration: none;
+font-family: "Host Grotesk", sans-serif;
+font-weight: bold;
+}
+li:hover{
+    background:rgb(199, 247, 199) ;
+text-align: center;
+}
