@@ -1,0 +1,22 @@
+*{
+    margin: 0;padding: 0;
+}
+section{
+    /* background-color: green; */
+    text-align: center;
+}
+div{
+    border: 1px solid rgb(140, 137, 137);
+    width: 400px;
+    /* background: pink; */
+    height: 450px;
+    display: inline-block;
+
+}
+img{
+    width: 100%;
+}
+h6{
+    font-family: sans-serif;
+    color: rgb(60, 59, 59);
+}

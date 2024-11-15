@@ -1,0 +1,29 @@
+*{
+    margin: 0;padding: 0;
+}
+h5{
+    font-family: sans-serif;
+    /* background-color: red; */
+    color: rgb(35, 33, 33);
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+section{
+    /* background-color: pink; */
+    height: 500px;
+    width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+div{
+    border:solid  1px rgb(188, 185, 185);
+    /* height: auto; */
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}

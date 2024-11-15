@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+}
+ul{
+    background-color: rgb(219, 5, 5);
+    list-style: none;
+    text-align: center;
+    box-shadow: 2px 1px 4px black;
+}
+li{
+    /* border: solid 1px rgb(140, 210, 140); */
+  
+    display: inline-block;
+}
+a{
+    height: 40px;
+    line-height: 40px;
+    /* background: rgb(174, 240, 174); */
+    display: block;
+    color: rgb(180, 185, 180);
+    text-decoration: none;
+    padding: 6px;
+    font-family: "Sour Gummy", sans-serif;
+}
+a:hover{
+    background: rgb(8, 7, 7);
+    color: white;
+}
+span{
+    background: purple;
+}
