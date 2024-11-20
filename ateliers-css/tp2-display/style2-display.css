@@ -21,18 +21,19 @@ div:hover img{
 transform: scale(0.9);
 
 }
+/* https://github.com/medharik/dev1-omnia-school */
 
 div img{
     width: 95%;
 }
-div .deuxieme{
+
+
+img:nth-child(2) {
     display: none;
 }
-div:hover .deuxieme{
-display: inline-block;
-}
-
-div:hover .premiere{
-display: none;
-}
-
+div:hover img:nth-child(1){
+    display: none;
+} 
+div:hover img:nth-child(2){
+    display: inline-block;
+} 

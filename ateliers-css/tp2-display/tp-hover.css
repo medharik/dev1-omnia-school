@@ -1,0 +1,46 @@
+*{
+    margin: 0; padding: 0;
+}
+section{
+    width: 1300px;
+    height: 500px;
+    /* background: rgb(244, 192, 239); */
+    margin: auto;
+}
+
+div{
+    /* background: red; */
+    width: calc(25% - 3px)  ;
+    text-align: center;
+    display: inline-block;
+ 
+}
+div:hover{
+/* background: blue; */
+}
+
+div img{
+    width: 90%;
+ 
+}
+/* masquer toutes les 2eme images */
+div img:nth-child(2){
+display: none;
+}
+/* dans div hover masquer la premiere image  */
+div:hover img:nth-child(1){
+    display: none;
+}
+/* dans div hover afficher  la deuxieme image  */
+div:hover img:nth-child(2){
+    display: inline-block;
+}
+div:hover img{
+    transform: scale(1.05);
+}
+
+h4,h5{
+    text-align: left;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
