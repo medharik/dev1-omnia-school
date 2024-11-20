@@ -1,0 +1,23 @@
+p{
+    background: rgb(196, 233, 196);
+    border: solid;
+    width: 400px;
+    margin: auto;
+    
+}
+a{
+    background: red;
+    color: white;
+    border: solid;
+    width: 200px;
+    display: inline-block;
+}
+img{
+    /* display: block; */
+    /* margin: auto; */
+
+}
+div{
+    text-align: center;
+  
+}

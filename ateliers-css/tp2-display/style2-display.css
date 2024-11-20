@@ -1,0 +1,38 @@
+*{
+    padding: 0;margin: 0;
+}
+section{
+    /* background-color: pink; */
+    width: 1400px;
+    margin: auto;
+}
+
+div{
+    /* background-color: rgb(210, 210, 246); */
+    width: calc(25% - 3px) ;
+    /* pour center tout ce qui est inline ou inline-block */
+    text-align: center;
+    display: inline-block;
+}
+div:hover {
+    /* background-color: red; */
+}
+div:hover img{
+transform: scale(0.9);
+
+}
+
+div img{
+    width: 95%;
+}
+div .deuxieme{
+    display: none;
+}
+div:hover .deuxieme{
+display: inline-block;
+}
+
+div:hover .premiere{
+display: none;
+}
+

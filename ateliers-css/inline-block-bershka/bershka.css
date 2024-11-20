@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    /* background-color: pink; */
+ 
+    width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+div{
+    /* background-color: rgb(237, 97, 120); */
+    width: 400px;
+    height: auto;
+    /* border: black solid 2px; */
+    display: inline-block;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
