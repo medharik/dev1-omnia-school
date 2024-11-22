@@ -1,0 +1,34 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    /* font-size: 0; */
+}
+section{
+    background-color: yellow;
+    /* min-height: 500px; */
+}
+.gauche,.droite{
+width: calc(50% - 6px);
+border: 4px solid red;
+display: inline-block;
+vertical-align: middle;
+}
+.gauche{
+    /* float: left; */
+}
+.droite{
+    /* float: right; */
+    /* height: 630px; */
+}
+.gauche img{
+    width: 100%;
+
+}
+.net{
+    clear: both;
+}
+.contenu{
+    width: 50%;
+    /* background-color: red; */
+     margin-top: 400px; 
+}

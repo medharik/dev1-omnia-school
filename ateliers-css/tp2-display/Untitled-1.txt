@@ -1,0 +1,15 @@
+ <section>
+        <div class="gauche">
+            <!-- <img src="lacoste/tennis.jpg" alt=""> -->
+        </div>
+        <div class="droite">
+            <h2>
+                Collection Lacoste Sport Pour Femme
+            </h2>
+            <p>
+                Découvrez la collection sport pour Femme
+            </p>
+        </div>
+
+    </section>
+    

@@ -1,0 +1,37 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+
+}
+section{
+    width: 100%;
+    /* background: rgb(255, 0, 43); */
+    min-height: 500px;
+}
+div{
+    width: calc( 50% - 2px) ;
+    /* min-height: 500px; */
+   
+    /* display: inline-block; */
+}
+.gauche img{
+width: 100%;
+}
+.gauche{
+    /* background: yellow; */
+    float: left;
+}
+.droite{
+    /* background-color: rgb(120, 120, 161); */
+    float: right;
+    /* opacity: 0.4; */
+}
+.net{
+    clear: both;
+}
+.contenu{
+    width: 70%;
+    background: green;
+    margin: auto;
+    margin-top: 300px;
+}
