@@ -1,17 +1,19 @@
 *{
     margin: 0;padding: 0;
     box-sizing: border-box;
-    /* font-size: 0; */
+
 }
 section{
-    background-color: yellow;
+    /* background-color: yellow; */
     /* min-height: 500px; */
+    font-size: 0;
+    /* height: 100vh; */
 }
 .gauche,.droite{
-width: calc(50% - 6px);
-border: 4px solid red;
+width: 50%;
 display: inline-block;
 vertical-align: middle;
+
 }
 .gauche{
     /* float: left; */
@@ -19,16 +21,25 @@ vertical-align: middle;
 .droite{
     /* float: right; */
     /* height: 630px; */
+    /* background: orangered; */
+    text-align: center;
+    
 }
 .gauche img{
-    width: 100%;
+    /* width: 100%; */
+    height: 100vh;
 
 }
 .net{
     clear: both;
 }
 .contenu{
-    width: 50%;
+   
     /* background-color: red; */
-     margin-top: 400px; 
+    /* margin-top: 400px; */
+    font-size: 20px;
+}
+.fullscreen{
+    background-color: purple;
+    height: 100vh;
 }
