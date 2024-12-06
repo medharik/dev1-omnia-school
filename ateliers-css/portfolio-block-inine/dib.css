@@ -1,0 +1,39 @@
+*{
+    margin: 0;padding: 0;
+}
+#tenis{
+    /* background-color: pink; */
+    height: 100vh;
+    width: 100%;
+    font-size: 0;
+}
+.moitie{
+    /* background: rgb(237, 129, 129); */
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+#gauche{
+    /* background: blue; */
+}
+#gauche img{
+    max-width:  100%;
+    max-height:  100%;
+  
+}
+#droite{
+    /* background: green; */
+    /* font-size: 0px; */
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+#droite h2{
+    font-size: 30px;
+}
+#droite h3{
+    font-size:24px;
+}
