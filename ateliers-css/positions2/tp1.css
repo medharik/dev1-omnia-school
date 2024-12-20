@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 1200px;
+    height: 500px;
+    /* background: pink; */
+    margin: auto;
+}
+.produit{
+    position: relative;
+    width: calc(33.33% - 3px);
+    height: auto;
+    /* border: solid 2px black; */
+    /* position: relative; */
+    display: inline-block;
+}
+.produit img{
+    width: 100%;
+
+}
+.produit span{
+    /* background: greenyellow; */
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.coeur{
+    color: red;
+    font-size: 2em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.produit:hover .coeur{
+    color: blue;
+    transform: scale(1.50);
+}
