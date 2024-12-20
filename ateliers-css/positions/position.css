@@ -1,0 +1,69 @@
+*{
+    padding: 0;margin: 0;
+}
+.zone{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+#static{
+    background: red;
+     /* position par defaut */
+    position: static;
+}
+#relative{
+    background: blue;
+    /* deplacement se fait par rapport a la position initiale de l'element */
+    /* position: relative;
+    left: 20px;
+    top: 10px; */
+  z-index:1;
+}
+#absolute{
+    background: green;
+        /* deplacement se fait par rapport a l'ecran (coin heut gauche de l'ecran)  initiale de l'element */
+/*  en regele generale : un element en position relative se depalce par rapport a son premier parent relatif*/
+    /* position: absolute;
+right: 0;
+top: 0; */
+/* z-index: 7; */
+
+}
+#fixed{
+    background: purple;
+/* comme absolute , sauf reste fixe au defillement */
+    position: fixed;
+    top: 10px;
+    left: 0;
+    z-index: 10;
+}
+#parent{
+width: 1000px;
+height: 400px;
+background: pink;
+margin: auto;
+position: relative;
+
+}
+#enfant1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  
+}
+#enfant2{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  
+}

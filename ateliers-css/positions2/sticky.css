@@ -1,0 +1,14 @@
+*{
+    margin: 0;padding: 0;
+}
+ul{
+    background: pink;
+}
+ul li{
+    border: solid black 2px ;
+    position: sticky;
+    top: 0;
+}
+li:first-child{
+    margin-top: 100px;
+}

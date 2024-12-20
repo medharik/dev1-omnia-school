@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;
+}
+.element{
+    width: 300px;
+    height: 300px;
+    border: solid black 2px;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+#rouge{
+   background-color: red; 
+   /* position: static  ; */
+}
+#vert{
+   background-color: rgb(130, 236, 24); 
+   /* position relative : si on veut deplacer un element par rapport a sa position actuelle (initiale)  */
+   position: relative;
+   left: 20px;
+   top: 50px;
+   z-index: 9;
+}
+#noir{
+    background: rgb(35, 35, 35);
+    position: sticky;
+    top: 50px;
+}
+#bleu{
+   background-color: rgb(15, 6, 179); 
+   /* position absolute: se deplace par rapport au coint haut gauche de l'ecran */
+   position: absolute;
+ right: 100px;
+ bottom: 100px;
+}
+#violet{
+   background-color: purple; 
+   /* position fixed : comme absolute, sauf reste fixe au defillement */
+   position: fixed;
+   top: 0;
+   right: 0;
+
+}
+
