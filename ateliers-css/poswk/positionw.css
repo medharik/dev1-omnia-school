@@ -1,0 +1,43 @@
+*{
+    margin: 0;padding: 0;
+}
+.element{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    font-size: 3em;
+}
+#rouge{
+    background: red;
+    /* /position par defaut */
+    position: static;
+    
+}
+#vert{
+    background: rgba(151, 232, 151, 0.409);
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#bleu{
+    background: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#violet{
+    background: purple;
+    /* fixed est comme absolute sauf fixe au defilement (scrooll) */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+#bar{
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}

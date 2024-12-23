@@ -1,0 +1,32 @@
+*{
+    margin: 0;padding: 0;
+}
+#tshirts{
+    width: 1200px;
+    height: 500px;
+    /* background: pink; */
+    margin: auto;
+}
+.produit{
+width: 25%;
+
+/* border:solid 2px black ; */
+position: relative;
+}
+.produit img{
+    width: 100%;
+}
+.fa-heart{
+    color: red;
+    font-size: 2em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.fa-twitter{
+    font-size: 2em;
+    color: blue;
+    position: absolute;left: 10px;
+    bottom: 10px;
+}

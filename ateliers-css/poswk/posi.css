@@ -1,0 +1,27 @@
+*{
+    margin: 0;padding: 0;
+}
+#parent{
+    width: 800px;
+    height: 600px;
+    background: pink;
+    margin: auto;
+    position: relative;
+}
+#enfant1{
+    width: 200px;
+    height:100px ;
+    background: green;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: calc(50% - 50px);
+  
+}
+#enfant2{
+    width: 200px;
+    height:100px ;
+    background: red;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+}
