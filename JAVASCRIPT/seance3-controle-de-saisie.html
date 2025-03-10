@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>le controle de saisie en javscript</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container bg-light text-center py-3 mt-3 shadow">
+      <h3 class="text-primary">CALCUL TTC :</h3>
+      <div id="erreur" class="text-danger"></div>
+      <input type="text" id="libelle" placeholder="Entrer le libelle" />
+      <input type="text" id="prix" placeholder="Entrer le prix" />
+      <input type="text" id="quantite" placeholder="Entrer le quantite" />
+      <button class="btn btn-primary btn-sm" onclick="calculer()">Ok</button>
+      <div>THT : <span class="badge text-bg-primary" id="tht">0</span>DHS</div>
+      <div>TVA : <span class="badge text-bg-danger" id="tva">0</span>DHS</div>
+      <div>TTC : <span class="badge text-bg-success" id="ttc">0</span>DHS</div>
+    </div>
+
+    <script>
+      function calculer() {
+        let libelle_input = document.getElementById("libelle");
+        let prix_input = document.getElementById("prix");
+        let quantite_input = document.getElementById("quantite");
+        let tht_span = document.getElementById("tht");
+        let tva_span = document.getElementById("tva");
+        let ttc_span = document.getElementById("ttc");
+        let erreur_div = document.getElementById("erreur");
+
+        // isNaN(12) => false
+        // isNaN("salut")=> true
+        // ! false <=> true
+        //    ! isNaN("clainn")=> false
+x="john"
+
+x ="doe"
+
+console.log(x)
+        // x="salut"+"ali"+10 => concatenation : "salutali10"
+        // 10+20=> 30
+
+
+
+        // x += "ali"
+
+        // console.log('la valeur de x est '+x)
+        
+        erreur_div.innerHTML="";
+
+        if (prix_input.value=="") {
+            erreur_div.innerHTML="le prix est obligatoire";          
+        }
+        if (quantite_input.value=="") {
+            erreur_div.innerHTML += "<br>la quantite est obligatoire";
+        }
+        if (isNaN(prix_input.value)) {
+          erreur_div.innerHTML+="<br>le prix doit etre numerique";
+        }
+        if (isNaN(quantite_input.value)) {
+          erreur_div.innerHTML+="<br>la quantite doit etre numerique";
+        }
+     
+
+        let tht = prix_input.value * quantite_input.value;
+        let tva = (tht * 20) / 100;
+        let ttc = tht + tva;
+
+        tht_span.innerHTML = tht;
+        tva_span.innerHTML = tva;
+        ttc_span.innerHTML = ttc;
+      }
+    </script>
+  </body>
+</html>
